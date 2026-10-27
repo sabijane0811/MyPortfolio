@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #263238;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Welcome section */
+header {
+    background: linear-gradient(135deg, #0F766E, #7c3aed);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #4338ca;
+}
+
+/* Button design */
+.button {
+    display: inline-block;
+    background-color: #86efac;
+    color: #222222;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #f59e0b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    header {
+        padding: 40px 15px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+}
+    
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background: #111;
+}
+
+.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #111;
+    color: white;
+}
+
+/* Make the portfolio responsive on mobile screens */
+@media (max-width: 600px) {
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    section {
+        margin: 15px 10px;
+        padding: 18px;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    body {
+        font-size: 15px;
+    }
+}
+
+
+

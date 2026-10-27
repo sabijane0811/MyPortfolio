@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Sabrina!</h1>
+        <p class="subtitle">Second-Year CSE Student | Future Web Developer</p>
+        <button class="button" onclick="welcomeMessage()">
+    Say Hello!
+</button>
+<button class="button" onclick="changeBackground()">
+    Change Background
+</button>
+
+<button class="button" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+
+<p id="message"></p>
+    </header>
+
+    <main>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science and Engineering student
+                who enjoys learning coding and exploring new
+                technologies. I am currently learning web
+                development and building my skills step by step.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Java - Basic</li>
+                <li>C++ - Basic</li>
+                <li>HTML - Learning</li>
+                <li>CSS - Learning</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>My Goals</h2>
+            <p>
+                My goal is to create useful websites, build
+                real-world projects, and prepare for internships.
+            </p>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <p>I'd love to connect and learn from others!</p>
+            <a href="#about" class="button">Back to About Me</a>
+        </section>
+    </main>
+
+<section id="project">
+    <h2>My First Project</h2>
+    <h3>Personal Portfolio Website</h3>
+    <p>
+        I built this responsive portfolio using HTML, CSS,
+        and JavaScript. It includes interactive buttons,
+        dark mode, and a mobile-friendly layout.
+    </p>
+</section>
+
+    <footer>
+        <p>Created by Sabrina P | Portfolio </p>
+    </footer>
+    
+<script>
+    function welcomeMessage() {
+        document.getElementById("message").textContent =
+            "Hello! Welcome to my portfolio!";
+    }
+
+    function changeBackground() {
+        document.body.style.backgroundColor = "lightblue";
+    }
+    
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+</script>
+
+
+</body>
+</html>
